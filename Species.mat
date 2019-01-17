@@ -1,0 +1,78 @@
+BEGIN SPECIES Rabbit
+breeding_gap		0.5
+color		blue
+number		1
+detection		90
+traits		[('Bound',0.15)]
+shape		.
+speed		19
+size		3
+acceleration		2
+index		0
+breeding_gap_std		0.05
+strength		1
+ideal_temp_std		3
+energy_loss		20
+stealth		50
+energy_loss_std		2
+ideal_temp		20
+life_expectancy		4
+acceleration_std		0.2
+strength_std		0.01
+life_expectancy_std		0.5
+field_view_std		1
+detection_std		10
+diet		H
+size_std		0.5
+obs_time_std		0.5
+speed_std		5
+obs_time		5
+name		Rabbit
+mature_age		0.5
+mature_age_std		0.1
+stealth_std		10
+field_view		270
+END
+
+
+################
+
+BEGIN SPECIES Fox
+breeding_gap		1
+color		red
+number		1
+detection		50
+traits		[]
+shape		.
+speed		14
+size		10
+acceleration		3
+index		1
+breeding_gap_std		0.1
+strength		2
+ideal_temp_std		3
+energy_loss		20
+stealth		50
+energy_loss_std		2
+ideal_temp		20
+life_expectancy		6
+acceleration_std		0.2
+strength_std		0.2
+life_expectancy_std		0.5
+field_view_std		1
+detection_std		10
+diet		C
+size_std		2
+obs_time_std		1
+speed_std		4
+obs_time		20
+name		Fox
+mature_age		1
+mature_age_std		0.1
+stealth_std		10
+field_view		180
+END
+
+
+################
+
