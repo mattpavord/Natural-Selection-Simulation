@@ -1,11 +1,10 @@
 # Natural-Selection-Simulation
 Natural Selector simulation inspired by Richard Dawkins
 
-INSTRUCTIONS
+****INSTRUCTIONS****
 Run main.py
 
-######################################################################################################################
-VARIABLE AND INSTANCE NAME DEFINITIONS 
+****VARIABLE AND INSTANCE NAME DEFINITIONS****
 
 Animal: An instance that contains all of the genetics, behavioural and environmental information of an INDIVIDUAL
 
@@ -32,11 +31,8 @@ Classes begin with a capital, their respective objects do not
 Loc or location is always a length 2 tuple (x,y)
 All directions are done by an angle anticlockwise from east (similar to polar coords) in domain -pi, pi
 
+****GENES****
 
-######################################################################################################################
-GENES
-
-Adding a gene aint that bad now
 Procedure to add a gene:
 
 Mechanics.py
@@ -50,8 +46,7 @@ Sit back and relax, everything here is done through the GENES variable
 
 You will need to configure a mean and std value for each species in the GUI or .mat file
 
-######################################################################################################################
-BEHAVIOURS
+****BEHAVIOURS****
 
 Behaviours are independent of genes and species type
 How likely they are to enter the behaviour however will depend on genes/species and
@@ -68,8 +63,7 @@ Mechanics.py
 3. Does the behaviour involve another animal? If not it should go in self.passive_response()
 
 
-######################################################################################################################
-FUTURE IDEAS
+****FUTURE IDEAS****
 
 New diets, e.g. Scavenger (S) that eats corpses and env objects
 
@@ -78,8 +72,8 @@ Pack - Moves around in packs
 Coumminty - Uses breeding grounds
 Lone - Picks mate from full family list
 
-######################################################################################################################
-SIMULATION SPEED
+
+****SIMULATION SPEED****
 
 Tests, 1000 rabbits to 10 foxes, map size = 2000 sqm:
 
@@ -87,8 +81,7 @@ Tests, 1000 rabbits to 10 foxes, map size = 2000 sqm:
 31/10/18 	12.50 
 04/11/18	10.67 
 
-######################################################################################################################
-TO DO: 
+****TO DO****
 Check code for TO DO's
 Add mutations
 Create a filter mechanism to remove zero food items from env.objects
