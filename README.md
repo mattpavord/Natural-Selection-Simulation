@@ -1,5 +1,8 @@
-# Natural-Selection-Simulation
+# Natural-Selection-Simulation beta 1.0
 Natural Selector simulation inspired by Richard Dawkins
+This program simulates a natural predator-prey relationship and allows the user to view how the populations change and adapt after an
+extended period of time
+Default predator prey is fox-rabbit however the user is free to create another species from the GUI
 
 ****INSTRUCTIONS****
 Run main.py
