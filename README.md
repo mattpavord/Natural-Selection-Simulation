@@ -6,7 +6,7 @@ Default predator prey is fox-rabbit however the user is free to create another s
 
 Disclaimer: I wrote this code in 2018 when I was very junior, my coding ability has come on significantly since this time.
 
-****INSTRUCTIONS****
+## INSTRUCTIONS
 Run main.py
 
 ****VARIABLE AND INSTANCE NAME DEFINITIONS****
